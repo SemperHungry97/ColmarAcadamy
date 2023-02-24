@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+    float: left;
+    height: 32px;
+    padding-left: 24px;
+}
+
+.logo_colmar, .logo_academy {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.logo_colmar {
+    color: gray;
+}
+
+.logo_academy {
+    color: lightgray;
+}
+
+.menu {
+    padding-right: 24px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    display: flex;
+    float: right;
+    text-align: right;
+    list-style: none;
+}
+
+.nav li {
+    padding-left: 16px;
+}
+
+main {
+    padding-top: 64px;
+    width: 100%;
+}
+
+.start {
+    background-color: lightgray;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.start img {
+    width: 60%;
+    padding: 32px 24px;
+}
+ 
+.start_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: rgb(67, 66, 66);
+}
+
+.start_text button {
+    background-color: rgb(73, 71, 71);
+    color: white;
+    font-size: large;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.practicing {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 32px;
+    width: 100%;
+    
+}
+
+.p_left {
+    width: 60%;
+    color: rgb(71, 70, 70);
+    padding: 32px 24px;
+    border: 1px solid red;
+}
+
+.p_left img {
+    width: 100%;
+}
+
+.p_right {
+    width: 40%;
+}
+
+.orientation, .campus, .guest {
+    display: flex;
+    
+    
+}
+
+.guest {
+    background-color: lightgray;
+}
+
+.orientation img, .campus img, .guest img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+    
+}
+
+.orientation_date, .our_campus, .guest_lecture {
+    width: 65%;
+    padding: 8px;
+}
+
+.read_more {
+    color: rgb(0, 132, 255);
+}
