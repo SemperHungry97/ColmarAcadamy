@@ -1,0 +1,79 @@
+# ColmarAcadamy
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="colmar_style.css">
+        <title>Colmar Academy Project</title>
+        <link rel="shortcut icon" type="image/svg" href="/images/ic-logo.svg">
+    </head>
+    <body>
+    <span class="desktop">
+        <header>
+            <div class="logo">
+                <img src="./recources//images/ic-logo.svg">
+                <div class="logo_colmar">COLMAR</div>
+                <div class="logo_academy">ACADEMY</div>
+            </div>
+            <div class="menu">
+                <ul class="nav">
+                    <li>On campus</li>
+                    <li>Online</li>
+                    <li>For companies</li>
+                    <li>Sign In</li>
+                </ul>
+            </div>
+            </div>
+        </header>
+        <main>
+            <div class="start">
+                    <img src="./images/banner.jpg">
+                <div class="start_text">
+                    <h1>Learn something new everyday</h2>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+                    <button type="button"><h3>Start here</h3></button>
+                </div>
+            </div>
+            <div class="practing">
+                <div class="p_left">
+                    <img src="./images/information-main.jpg">
+                    <h1>It doesn't hurt to keep practicing</h1>
+                    <p>"Curabitur vitae libero in ipsum porttitor
+                        consequat. Aliquam et commodo lectus, nec 
+                        consequat neque. Sed non accumsan urna. 
+                        Phasellus sed consequat ex. Etiam eget 
+                        magna laoreet, efficitur dolor consequat, 
+                        tritique ligula."</p>
+                    <p>Emanual, Sr Strategist at Hiring.com</p>
+                </div>
+                <div class="p_right">
+                    <div class="orientation">
+                        <img src="./images/information-orientation.jpg">
+                        <div class="orientation-date">
+                            <h2>Orientation date</h2>
+                            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                            <p class="read_more">Read more</p>
+                        </div>
+                    </div>
+                    <div class="campus">
+                        <img src="./images/information-campus.jpg">
+                        <div class="our_campus">
+                            <h2>Our campus</h2>
+                            <p>Find which campus is close by you</p>
+                            <p class="read_more">Read more</p>
+                        </div>
+                    </div>
+                    <div class="guest">
+                        <img src="./images/information-guest-lecture.jpg">
+                        <div class="guest_lecture">
+                            <h2>Our guest lecture</h2>
+                            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                            <p class="read_more">Read more</p>  
+                        </div>                 
+                    
+                    </div>
+                </div>
+            </div>
+        </main>
+       </span>
+    </body>
+</html>
